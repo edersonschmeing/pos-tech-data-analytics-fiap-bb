@@ -21,7 +21,7 @@ st.title("Predição de Tendência do BOVA11")
 st.caption("Modelo de Machine Learning para previsão de movimento futuro")
 st.caption("Treinado com dados do yfinance de 01/07/2021 à 30/06/2025")
 
-@st.cache_resource
+
 def carregar_recursos():
     modelo = joblib.load("modelo_bova11_2021_07_01_a_2025_06_30.pkl")
     scaler = joblib.load("scaler_bova11_2021_07_01_a_2025_06_30.pkl")
