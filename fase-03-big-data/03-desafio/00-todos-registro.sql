@@ -1,0 +1,1 @@
+SELECT * FROM tb_bank_customer_churn_prediction 
